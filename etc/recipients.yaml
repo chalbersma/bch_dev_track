@@ -1,0 +1,89 @@
+bu:
+  name: Bitcoin Unlimited
+  site: https://www.bitcoinunlimited.info/
+  source: https://github.com/BitcoinUnlimited/BitcoinUnlimited
+  proj_type: node
+  campaigns:
+    default:
+      address: bitcoincash:pq6snv5fcx2fp6dlzg7s0m9zs8yqh74335tzvvfcmq
+      reason: Bitcoin Unlimited General Fund
+babc:
+  name: Bitcoin ABC
+  site: https://www.bitcoinabc.org/
+  source: https://github.com/Bitcoin-ABC/bitcoin-abc
+  proj_type: node
+  campaigns:
+    default:
+      address: bitcoincash:qqeht8vnwag20yv8dvtcrd4ujx09fwxwsqqqw93w88
+      reason: Bitcoin ABC General Fund
+bchd:
+  name: BCHD
+  site: https://bchd.cash/
+  source: https://github.com/gcash/bchd
+  proj_type: node
+  campagins:
+    default:
+      address:  bitcoincash:qrhea03074073ff3zv9whh0nggxc7k03ssh8jv9mkx
+      reason: BCHD General Fund
+bcash:
+  name: BCash
+  site: https://bcoin.io/
+  source: https://github.com/bcoin-org/bcoin
+  proj_type: node
+  campaigns:
+    default:
+      address: bitcoincash:ppk70n7tle3p3j53guy4358f99ygq3zdf5s3tsmz0d
+      reason: BCash General Fund
+bverde:
+  name: Bitcoin Verde
+  site: https://bitcoinverde.org/
+  source: https://github.com/softwareverde/bitcoin-verde
+  proj_type: node
+  campaigns:
+    default:
+      address: bitcoincash:qqzkk06w4k3ye05q7fly566tan2chfkerqgku569zg
+      reason: Bitcoin Verde General Fund
+flow:
+  name: Flowee the Hub (and Friends)
+  site: https://flowee.org/
+  source: https://gitlab.com/FloweeTheHub
+  proj_type: node
+  campaigns:
+    default:
+      address: bitcoincash:qpgn5ka4jptc98a9ftycvujxx33e79nxuqlz5mvxns
+      reason: Flowee General Fund
+bitcash:
+  name: Bitcash (Python Lib)
+  site: https://sporestack.github.io/bitcash/
+  source: https://github.com/sporestack/bitcash
+  proj_type: library
+electronc:
+  name: Electron Cash
+  site: https://electroncash.org/
+  source: https://github.com/Electron-Cash/Electron-Cash
+  proj_type: spv_wallet
+  campaigns:
+    default:
+      address: bitcoincash:qz4wq9m860zr5p2nfdpttm5ymdqdyt3psc95qjagae
+      reason: Electrom General Fund
+bitbox:
+  name: Bitbox
+  site: https://developer.bitcoin.com/bitbox
+  source: https://github.com/Bitcoin-com/bitbox-sdk
+  proj_type: library
+badger:
+  name: Badger SDK
+  site: https://badger.bitcoin.com/
+  source: https://github.com/Bitcoin-com/badger/
+  proj_type: library
+cashaddr:
+  name: Cash Address
+  site: https://cashaddress.org/
+  source: https://github.com/theantnest/bccaddress
+  proj_type: paper_wallet
+  campaigns:
+    default:
+      address: bitcoincash:qp4atx0z6h6atuzchuaqssnkdqag95ecdqtt5nx8z8
+      reason: General Donations
+
+
