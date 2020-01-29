@@ -28,7 +28,10 @@ expected_amount = goal * expected_percent
 running_total_bch = 0
 running_total = 0
 
-for pkey in ["bu", "babc", "bchd", "bcash", "bverde", "flow", "electronc", "badger", "cashaddr"]:
+for pkey in ["bu", "babc", "bchd",
+             "bcash", "bverde", "flow",
+             "electronc", "badger", "cashaddr",
+             "bitcash"]:
     this_project = tracker.Project(pkey=pkey,
                                    lfd=True)
 

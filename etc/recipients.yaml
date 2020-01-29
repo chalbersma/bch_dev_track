@@ -57,6 +57,10 @@ bitcash:
   site: https://sporestack.github.io/bitcash/
   source: https://github.com/sporestack/bitcash
   proj_type: library
+  campaigns:
+    merc1er:
+      address: bitcoincash:qruwf0gkl7qncc47da0f0xpmpul2s3c47gzzxt9hq3
+      reason: Donation to Developer @merc1er
 electronc:
   name: Electron Cash
   site: https://electroncash.org/
@@ -85,5 +89,20 @@ cashaddr:
     default:
       address: bitcoincash:qp4atx0z6h6atuzchuaqssnkdqag95ecdqtt5nx8z8
       reason: General Donations
+haskoin:
+  name: Haskoin Core
+  site: https://github.com/haskoin/
+  source: https://github.com/haskoin/haskoin-core
+  proj_type: node
+obspvwallet:
+  name: OpenBazaar SPV Wallet
+  site: https://openbazaar.org/
+  source: https://github.com/OpenBazaar/spvwallet
+  proj_type: spv_wallet
+telescope:
+  name: Telescope
+  site: https://github.com/adangert/Telescope
+  source: https://github.com/adangert/Telescope
+  proj_type: spv_wallet
 
 
