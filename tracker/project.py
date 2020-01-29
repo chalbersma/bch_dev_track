@@ -58,6 +58,15 @@ class Project:
 
         self.populate_campaigns()
 
+    def bch_equiv(self, is_float=False):
+
+        if is_float is True:
+            total_in_bch = self.total / self._satoshify_factor
+        else:
+            total_in_bch = "₿ {:,.8f}".format(total_in_bch)
+
+        return total_in_bch
+
     def usd_equiv(self, is_float=False):
 
         '''

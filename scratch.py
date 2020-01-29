@@ -14,7 +14,7 @@ duration = 144 * 236
 expected_end_block = start_block + duration
 
 # Why is this not dynamic? I hate myself sometimes
-current_block_height = 619884
+current_block_height = 619888
 
 blocks_in = current_block_height - start_block
 
@@ -25,6 +25,7 @@ expected_percent = blocks_in / duration
 
 expected_amount = goal * expected_percent
 
+running_total_bch = 0
 running_total = 0
 
 for pkey in ["bu", "babc", "bchd", "bcash", "bverde", "flow", "electronc", "badger", "cashaddr"]:
@@ -35,12 +36,13 @@ for pkey in ["bu", "babc", "bchd", "bcash", "bverde", "flow", "electronc", "badg
     print(this_project.total)
     print(this_project.usd_equiv())
 
+    running_total_bch += this_project.bch_equiv(is_float=True)
     running_total += this_project.usd_equiv(is_float=True)
 
 actual_percent = running_total / goal
 
 
-print("Grand Total ${:,.2f}".format(running_total))
+print("Grand Total ${:,.2f} / ₿ {:,.8f}".format(running_total, running_total_bch))
 print("Actual Percent {:.4%}".format(actual_percent))
 print("Expected Percent {:.4%}".format(expected_percent))
 print("Expected Amount ${:,.2f}".format(expected_amount))
